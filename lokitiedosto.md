@@ -113,3 +113,9 @@ echo "Done."
 Done.
 
 -----------------------------------------
+
+### Add screenshot of rights:
+
+![Screenshot of the rights][screenshot]
+
+[screenshot]: https://github.com/adam-p/markdown-here/raw/master/terotin/sirotin_terotin.png
