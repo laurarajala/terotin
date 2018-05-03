@@ -7,13 +7,12 @@ set -o verbose
 echo "Installing Salt and Git..."
 sudo apt-get update
 sudo apt-get -y install git salt-minion
-git clone https://github.com/kdechant/saltstack-dev-setup.git
 
 echo "Retrieving and Applying Settings..."
 echo 'master: localhost'|sudo tee /etc/salt/minion
 git clone https://github.com/laurarajala/terotin.git
 cd terotin/
-'./highstate.sh'
+./highstate.sh
 
 echo "Configuring Live Desktop"
 setxkbmap fi
