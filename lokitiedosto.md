@@ -19,10 +19,10 @@ blaa bla
 
 ## log files
 
-Author: Laura Rajala
+<Author: Laura Rajala
 Date:   Thu May 3 16:50:02 2018 +0300
 
-    added log-files text
+    added log-files text>
 
 Author: Laura Rajala
 Date:   Thu May 3 16:48:50 2018 +0300
