@@ -11,9 +11,10 @@ blaa bla
     7  git config --global user.email "laura.rajala@myy.haaga-helia.fi"
     8  git config --global user.name "Laura Rajala"
     9  git clone https://github.com/laurarajala/terotin.git
-   10  ls
-   11  cd terotin/
-   12  ls
-   13  nano README.md 
-   14  git add . && git commit; git pull && git push
+    10  ls
+    11  cd terotin/
+    12  ls
+    13  nano README.md 
+    14  git add . && git commit; git pull && git push
 
+## log files
