@@ -1,7 +1,5 @@
 ## Everything I did while doing the exercise
 
-blaa bla
-
     1  setxkbmap fi
     2  software-properties-gtk 
     3  sudo apt-get update
@@ -73,44 +71,44 @@ Date:   Thu May 3 16:16:07 2018 +0300
 
 #### Oldest ones here
 
-### Got to point where as follows:
+## Got to point where as follows:
 
 ---------------------------------------------
 
-** (appstreamcli:17071): CRITICAL **: Error while moving old database out of the way.
-AppStream cache update failed.
-Reading package lists... Done
-sudo apt-get -y install git salt-minion
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-salt-minion is already the newest version (2015.8.8+ds-1).
-git is already the newest version (1:2.7.4-0ubuntu1.3).
-0 upgraded, 0 newly installed, 0 to remove and 454 not upgraded.
-
-echo "Retrieving and Applying Settings..."
-Retrieving and Applying Settings...
-echo 'master: localhost'|sudo tee /etc/salt/minion
-master: localhost
-git clone https://github.com/laurarajala/terotin.git
-fatal: destination path 'terotin' already exists and is not an empty directory.
-cd terotin/
-./highstate.sh
-run.sh: line 15: ./highstate.sh: Permission denied
-
-echo "Configuring Live Desktop"
-Configuring Live Desktop
-setxkbmap fi
-sudo timedatectl set-timezone Europe/Helsinki
-git config --global credential.helper "cache --timeout=3600"
-git config --global push.default simple
-# git config --global user.email "terosstudent@example.com"
-# git config --global user.name "Tero's Student"
-
-echo "More tips on http://terokarvinen.com/tag/saltstack"
-More tips on http://terokarvinen.com/tag/saltstack
-echo "Done."
-Done.
+	** (appstreamcli:17071): CRITICAL **: Error while moving old database out of the way.
+	AppStream cache update failed.
+	Reading package lists... Done
+	sudo apt-get -y install git salt-minion
+	Reading package lists... Done
+	Building dependency tree       
+	Reading state information... Done
+	salt-minion is already the newest version (2015.8.8+ds-1).
+	git is already the newest version (1:2.7.4-0ubuntu1.3).
+	0 upgraded, 0 newly installed, 0 to remove and 454 not upgraded.
+	
+	echo "Retrieving and Applying Settings..."
+	Retrieving and Applying Settings...
+	echo 'master: localhost'|sudo tee /etc/salt/minion
+	master: localhost
+	git clone https://github.com/laurarajala/terotin.git
+	fatal: destination path 'terotin' already exists and is not an empty directory.
+	cd terotin/
+	./highstate.sh
+	run.sh: line 15: ./highstate.sh: Permission denied
+	
+	echo "Configuring Live Desktop"
+	Configuring Live Desktop
+	setxkbmap fi
+	sudo timedatectl set-timezone Europe/Helsinki
+	git config --global credential.helper "cache --timeout=3600"
+	git config --global push.default simple
+	# git config --global user.email "terosstudent@example.com"
+	# git config --global user.name "Tero's Student"
+	
+	echo "More tips on http://terokarvinen.com/tag/saltstack"
+	More tips on http://terokarvinen.com/tag/saltstack
+	echo "Done."
+	Done.
 
 -----------------------------------------
 
@@ -123,16 +121,16 @@ execute-rigths missing
 
 ## Added some rights to execute to .sh files as follows:
 
-..
-  187  cd terotin/
-  188  ls
-  189  chmod a+rx highstate.sh 
-  190  ls -la
-  191  chmod a+rx latest.sh 
-  192  ls -la
-  193  chmod a+rx run.sh 
-  194  ls
-  195  history 
+	..
+	187  cd terotin/
+	188  ls
+	189  chmod a+rx highstate.sh 
+	190  ls -la
+	191  chmod a+rx latest.sh 
+	192  ls -la
+	193  chmod a+rx run.sh 
+	194  ls
+	195  history 
 
 ### Add a NEW screenshot SUCCESSFUL run:
 
