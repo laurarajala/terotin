@@ -12,7 +12,7 @@ echo "Retrieving and Applying Settings..."
 echo 'master: localhost'|sudo tee /etc/salt/minion
 git clone https://github.com/laurarajala/terotin.git
 cd terotin/
-bash highstate.sh
+highstate.sh
 
 echo "Configuring Live Desktop"
 setxkbmap fi
