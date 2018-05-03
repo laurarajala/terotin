@@ -134,3 +134,8 @@ execute-rigths missing
   194  ls
   195  history 
 
+### Add a NEW screenshot SUCCESSFUL run:
+
+![Successful run](/success.png)
+
+
