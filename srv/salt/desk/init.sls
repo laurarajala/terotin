@@ -8,5 +8,5 @@ deskapps:
       - gedit
       - tree
       - openssh-client
-- autossh
+      - autossh
 
