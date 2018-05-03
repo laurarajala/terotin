@@ -119,3 +119,18 @@ Done.
 ![Screenshot of the rigths](/sirotin_terotin.png)
 
 execute-rigths missing
+
+
+## Added some rights to execute to .sh files as follows:
+
+..
+  187  cd terotin/
+  188  ls
+  189  chmod a+rx highstate.sh 
+  190  ls -la
+  191  chmod a+rx latest.sh 
+  192  ls -la
+  193  chmod a+rx run.sh 
+  194  ls
+  195  history 
+
