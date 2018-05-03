@@ -116,4 +116,6 @@ Done.
 
 ### Add screenshot of rights:
 
-![Screenshot of the rights](/sirotin_terotin.png)
+![Screenshot of the rigths](/sirotin_terotin.png)
+
+execute-rigths missing
