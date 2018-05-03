@@ -137,3 +137,4 @@ execute-rigths missing
 ![Successful run](/success.png)
 
 
+Ended the exercise at 6.38 pm on thursday 3.5.2018
