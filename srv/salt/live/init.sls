@@ -1,10 +1,10 @@
 {% if grains['os'] == 'Ubuntu' %}
 
-/home/xubuntu/.config/xfce4/terminal/terminalrc:
+/home/ubuntu/.config/xfce4/terminal/terminalrc:
   file.managed:
     - source: salt://live/terminalrc
-    - user: xubuntu
-    - group: xubuntu
+    - user: ubuntu
+    - group: ubuntu
     - replace: False
     - makedirs: True
 
